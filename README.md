@@ -1,4 +1,4 @@
-# Durable Delivery: Building Confidence in Distributed System Deployments
+# Durable Delivery: Building Confidence in Distributed Systems
 
 **Executive Summary:**
 
