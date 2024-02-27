@@ -1,28 +1,28 @@
 # Durable Delivery: Building Confidence in Distributed Systems
 
-**Executive Summary:**
+## Executive Summary
 
 Deploying distributed systems reliably and predictably remains a significant challenge, with complex failure modes and intricate "table stakes" to manage. This white paper introduces **Durable Delivery**, a set of principles and practices that empower organizations to build robust and resilient delivery pipelines for distributed systems. By adopting these principles, organizations can gain greater confidence in their deployments, minimize disruptions, and ensure rapid recovery from issues.
 
-**Challenges of Distributed System Deployments:**
+## Challenges of Distributed System Deployments
 
 - **Nuanced Failure Modes:** Complex systems introduce diverse failure possibilities, often requiring specialized expertise to address.
 - **Critical "Table Stakes":** Core functionalities like controlled rollouts and reliable rollbacks are essential but challenging to coordinate effectively.
 - **Additional Complexities:** Traffic draining, make-before-break strategies, and maintaining safety invariants further complicate the deployment process.
 - **Need for Manual Override:** The ability to manually intervene remains crucial for unforeseen circumstances.
 
-**Limitations of Existing Solutions:**
+## Limitations of Existing Solutions
 
 While continuous delivery tools have evolved, they often:
 
 - **Require significant customization**, especially for specialized infrastructure.
 - **Primarily focus on Kubernetes deployments**, leaving a large portion of infrastructures unaddressed.
 
-**Introducing Durable Delivery:**
+## Introducing Durable Delivery
 
 Durable Delivery is a framework built on the following principles.
 
-- **Orderly Code Flow:**
+- **Merge Queues to to avoid git merge conflicts:**
   - FIFO pull request management for predictability and control.
   - Automated validation and testing for early bug detection.
   - Automatic conflict resolution to minimize manual intervention.
